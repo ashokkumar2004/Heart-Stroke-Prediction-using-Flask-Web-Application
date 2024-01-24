@@ -1,0 +1,62 @@
+<html>
+   <head lang="en">
+    <title>Login</title>
+    <style>
+    body {
+      background-image: url("https://media.istockphoto.com/id/1128931450/photo/heart-attack-concept.jpg?s=612x612&w=0&k=20&c=XHOhTXhpZMSV6XIhXLbH6uvNQjZQS93b1UetGfqQXtI=");
+      background-size:calc();
+      background-size:1800px;
+      background-position: center center;
+      background-repeat: repeat-x;
+      font-family: Arial, sans-serif;
+      color: #333;
+  }
+  button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .container{
+            width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            position:top left;
+       }
+</style>
+   </head>
+   <body>
+   <div class="container">
+    <h1>ENTER THE PATIENT DETAILS</h1>
+      <form action = "http://localhost:5000" method = "post">
+         <lable>GENDER</lable>
+         <p><input type = "text" name = "n1" /></p><br>
+         <lable>AGE</lable>
+         <p><input type = "float" name = "n2" /></p><br>
+         <lable>HYPERTENSION</lable>
+         <p><input type = "number" name = "n3" /></p><br>
+         <lable>HEART DISEASE</lable>
+         <p><input type = "number" name = "n4" /></p><br>
+         <lable>EVER MARRIED</lable>
+         <p><input type = "text" name = "n5" /></p><br>
+         <lable>WORK TYPE</lable>
+         <p><input type = "text" name = "n6" /></p><br>
+         <lable>RESIDENCE TYPE</lable>
+         <p><input type = "text" name = "n7" /></p><br>
+         <lable>AVG GLUCOSE LEVEL</lable>
+         <p><input type = "float" name = "n8" /></p><br>
+         <lable>BMI</lable>
+         <p><input type = "float" name = "n9" /></p><br>
+         <lable>SMOKING STATUS</lable>
+         <p><input type = "text" name = "n10" /></p><br>
+         <button type="submit">PREDICT HEART STROKE</button>
+      </form> 
+      </div>
+   </body>
+</html>
